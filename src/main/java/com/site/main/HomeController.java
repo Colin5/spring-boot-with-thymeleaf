@@ -12,7 +12,7 @@ public class HomeController {
 
     @RequestMapping("/")
     public String index(ModelMap map){
-        map.addAttribute("host", "http://blog.didispace.com");
+        map.addAttribute("host", "http://www.test.com");
         return "index";
     }
 
